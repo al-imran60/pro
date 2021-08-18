@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: floralwhite;
+  padding-bottom: 460px;
+  padding-top: 50px;
+}
+.text-box1 a{
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: lawngreen solid;
+  border-radius: 10px;
+
+  animation-name: click-here;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition-duration: 2s;
+}
+
+@keyframes click-here{
+  0%{
+    border-color: lawngreen;
+  }
+  20%{
+    border-color: rgb(175, 0, 0);
+  }
+  40%{
+    border-color: rgb(67, 5, 236);
+  }
+  50%{
+    background-color: lawngreen;
+  }
+  70%{
+    background-color: #74b9ff;
+  }
+}
+
+.h1{
+  text-align: center;
+  font-size: 10px;
+}
+
+.img-box img{
+  width: 200px;
+ 
+}
